@@ -1,4 +1,4 @@
-===>> Exercício Extra
+===>> Exercício
 
 1) Exibir Data e Hora do Sistema 
 2) Exibir Data do Sistema no formato: DD/MM/YYYY
