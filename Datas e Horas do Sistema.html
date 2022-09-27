@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/> 
+	<title></title>	
+	<script>
+		const data = new Date().toLocaleDateString();
+		const hora = new Date().toLocaleTimeString();
+		const dias7 = parseInt(data.substring(0,2)) + 7;
+		const date = new Date();
+		const time3 = parseInt(hora.substring(0,2)) + 3;
+		const time4 = parseInt(hora.substring(0,2)) + 4;
+		const minuto = parseInt(hora.substring(3,5)) + 30;
+
+		function corrigirHora(horaDaFuncao) {
+			let horaConvertidaInteiro = parseInt(horaDaFuncao);
+			if (horaConvertidaInteiro >= 24) {
+				horaConvertidaInteiro = horaConvertidaInteiro - 24
+				if (horaConvertidaInteiro === 0) {
+					horaConvertidaInteiro = "0" + horaConvertidaInteiro.toString()
+				}
+			}
+			return horaConvertidaInteiro
+		}
+
+		function corrigirMinuto(minutoDaFuncao) {
+			let minutoConvertidaInteiro = parseInt(minutoDaFuncao);
+			if (minutoConvertidaInteiro >= 60) {
+				minutoConvertidaInteiro = minutoConvertidaInteiro - 60
+				if (minutoConvertidaInteiro === 0) {
+					minutoConvertidaInteiro = "0" + minutoConvertidaInteiro.toString()
+				}
+			}
+			return minutoConvertidaInteiro
+		}
+
+		document.write(Date() + "</br></br>");
+
+		document.write("Data = " + (data) + "&emsp;&emsp;" + "Hora = " + (hora) + "</br>");
+
+		document.write("Dia = " + new Date().toLocaleDateString().substring(0,2) + "</br>");
+
+		document.write("Mês = " + new Date().toLocaleDateString().substring(3,5) + "&emsp;&emsp;");
+		document.write("Mês por extenso = " + new Date().toLocaleString('pt-br', { month: 'long' }) + "</br>");
+
+		document.write("Ano = " + new Date().toLocaleDateString().substring(6,10) + "</br>");
+
+		document.write("Dia da Semana = " + Date().substring(0,3) + "&emsp;&emsp;");	
+		document.write("Dia da Semana em português = " + new Date().toLocaleString('pt-br', {  weekday:  'long'}) + "</br>");
+
+		document.write("Hora Completa do Sistema = " + (hora) + "</br>");
+
+		document.write("Apenas a Hora do Sistema = " + (hora).substring(0,2) + "</br>");
+
+		document.write("Apenas os Minutos do Sistema = " + (hora).substring(3,5) + "</br>");
+
+		document.write("Apenas os Segundos do Sistema = " + (hora).substring(6,8) + "</br>");
+
+		document.write("O dia atual + 7 dias = " + dias7 + "</br>");
+
+		date.setDate(date.getDate() + 8)
+		document.write("Dia da semana de hoje + 8 dias = " + date.toLocaleString('pt-br', {  weekday:  'long'}) + "</br>");
+
+
+		let horaExcedeu = corrigirHora(time4)
+		let minutoExcedeu = corrigirMinuto(minuto)
+			if (minutoExcedeu < 30) {
+				horaExcedeu = parseInt(horaExcedeu) + 1; /* parseInt converte para números inteiros. */
+			}
+			if (horaExcedeu < 10) {
+				horaExcedeu = "0" + horaExcedeu.toString();	/* toString converte pra string. String são textos entre "" . */
+			}
+
+		document.write("Hora atual + 4:30 = " + horaExcedeu + ":");
+		document.write(minutoExcedeu);
+		document.write(new Date().toLocaleTimeString().substring(5,8));
+
+
+	</script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
