@@ -1,7 +1,7 @@
 ===>> Exercício
 
-1) Exibir Data e Hora do Sistema 
-2) Exibir Data do Sistema no formato: DD/MM/YYYY
+1) Pegue todas as informações de Data e a Hora do Sistema
+2) Exibir Data do Sistema no formato: DD/MM/YYYY e Hora do Sistema 
 3) Exibir dia do Sistema no formato: DD
 4) Exibir mês do Sistema no formato: MM
 5) Exibir mês do Sistema no formato: mês
@@ -11,7 +11,6 @@
 9) Exibir Hora do Sistema no formato: HH
 10) Exibir Minuto do Sistema no formato: MI
 11) Exibir Segundo do Sistema no formato: SS
-12) Exibir Data de hoje + 7 dias no formato: DD/MM/YYYY
+12) Exibir Data de hoje + 7 no formato: DD/MM/YYYY
 13) Exibir dia da semana da Data de hoje + 8 dias no formato: segunda-feira
-14) Exibir Hora de agora + 3 horas no formato: HH:MI:SS
-15) Exibir Hora de agora + 4:30 horas no formato: HH:MI:SS
+14) Exibir Hora de agora + 4:30 horas no formato: HH:MI:SS

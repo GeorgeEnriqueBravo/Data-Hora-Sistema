@@ -36,30 +36,30 @@
 
 		document.write(Date() + "</br></br>");
 
-		document.write("Data = " + (data) + "&emsp;&emsp;" + "Hora = " + (hora) + "</br>");
+		document.write("Data = " + (data) + "&emsp;&emsp;" + "Hora = " + (hora) + "</br></br>");
 
 		document.write("Dia = " + new Date().toLocaleDateString().substring(0,2) + "</br>");
 
 		document.write("Mês = " + new Date().toLocaleDateString().substring(3,5) + "&emsp;&emsp;");
 		document.write("Mês por extenso = " + new Date().toLocaleString('pt-br', { month: 'long' }) + "</br>");
 
-		document.write("Ano = " + new Date().toLocaleDateString().substring(6,10) + "</br>");
+		document.write("Ano = " + new Date().toLocaleDateString().substring(6,10) + "</br></br>");
 
 		document.write("Dia da Semana = " + Date().substring(0,3) + "&emsp;&emsp;");	
-		document.write("Dia da Semana em português = " + new Date().toLocaleString('pt-br', {  weekday:  'long'}) + "</br>");
+		document.write("Dia da Semana em português = " + new Date().toLocaleString('pt-br', {  weekday:  'long'}) + "</br></br>");
 
-		document.write("Hora Completa do Sistema = " + (hora) + "</br>");
+		document.write("Hora Completa do Sistema = " + (hora) + "</br></br>");
 
 		document.write("Apenas a Hora do Sistema = " + (hora).substring(0,2) + "</br>");
 
 		document.write("Apenas os Minutos do Sistema = " + (hora).substring(3,5) + "</br>");
 
-		document.write("Apenas os Segundos do Sistema = " + (hora).substring(6,8) + "</br>");
+		document.write("Apenas os Segundos do Sistema = " + (hora).substring(6,8) + "</br></br>");
 
-		document.write("O dia atual + 7 dias = " + dias7 + "</br>");
+		document.write("O dia atual + 7 = " + dias7 + "</br></br>");
 
 		date.setDate(date.getDate() + 8)
-		document.write("Dia da semana de hoje + 8 dias = " + date.toLocaleString('pt-br', {  weekday:  'long'}) + "</br>");
+		document.write("Dia da semana de hoje + 8 dias = " + date.toLocaleString('pt-br', {  weekday:  'long'}) + "</br></br>");
 
 
 		let horaExcedeu = corrigirHora(time4)
