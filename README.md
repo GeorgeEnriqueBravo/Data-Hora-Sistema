@@ -1,5 +1,5 @@
 # Bem vindo ao exercício Data-Hora-Sistema
-### Eu desenvolvi uma página em HTML para um exercício de uso de Javascript.
+### Eu desenvolvi uma página em HTML para um exercício de uso de JavaScript.
 
 Você pode acessar a página do projeto 
 <a href="https://georgeenriquebravo.github.io/Data-Hora-Sistema/" target="_blank">
