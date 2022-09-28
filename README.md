@@ -2,7 +2,7 @@
 ### Eu desenvolvi uma página em HTML para um exercício de uso de Javascript.
 
 Você pode acessar a página do projeto 
-<a href="https://georgeenriquebravo.github.io/data-hora-sistema/" target="_blank">
+<a href="https://georgeenriquebravo.github.io/Data-Hora-Sistema/" target="_blank">
     clicando aqui
 </a>
 .
