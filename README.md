@@ -1,4 +1,4 @@
-# Bem vindo ao exercício 📅Data⌚Hora💻Sistema!
+# Bem vindo ao exercício Data📅Hora⌚Sistema💻!
 ### Eu desenvolvi uma página em HTML para um exercício de uso de JavaScript.
 
 Você pode acessar a página do meu exercício 
